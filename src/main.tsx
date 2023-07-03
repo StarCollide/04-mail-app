@@ -5,5 +5,5 @@ import { MailApp } from './MailApp'
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <MailApp />
-  </React.StrictMode>,
+  </React.StrictMode>
 )

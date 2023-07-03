@@ -7,8 +7,8 @@ export const MailContent = () =>{
         <>
             <Row justify={'center'} align={'middle'}>
                 <Col lg={15}>
-                        <Button type="primary" danger>Delete</Button>
-                        <Button>Spam</Button>
+                    <Button type="primary" danger>Delete</Button>
+                    <Button>Spam</Button>
                 </Col>
                 <Col lg={8}>
                     <Button type='primary'>mark as unread</Button>
@@ -22,16 +22,16 @@ export const MailContent = () =>{
             </Row>
             <Row>
                 <Col>
-                <b>Tags </b>
-                <Tag>business</Tag>
-                <Tag>inbox</Tag>
+                    <b>Tags </b>
+                    <Tag>business</Tag>
+                    <Tag>inbox</Tag>
                 </Col>
             </Row>
             <Row>
                 <Col>
-                <Card>
-                    <p>{info.body}</p>
-                </Card>
+                    <Card>
+                        <p>{info.body}</p>
+                    </Card>
                 </Col>
             </Row>
             <Row justify={"end"}>
